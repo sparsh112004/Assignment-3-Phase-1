@@ -1,0 +1,16 @@
+from turtle import Turtle, Screen
+def repeat_shape(turtle_pattern):
+    for _ in range(15):
+        turtle_pattern.forward(50)
+        turtle_pattern.left(90)
+        turtle_pattern.forward(50)
+        turtle_pattern.left(90)
+        turtle_pattern.forward(50)
+        turtle_pattern.left(90)
+        turtle_pattern.forward(50)
+        turtle_pattern.left(90)
+        turtle_pattern.left(30)
+screen = Screen()
+shape = Turtle()
+repeat_shape(shape)
+screen.exitonclick()
